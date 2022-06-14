@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 body{
@@ -14,7 +14,7 @@ body{
 #container{
   margin-top: 6.25rem;
   width: 80%;
-  max-width: 400px;
+  max-width: 25rem;
   margin-inline: auto;
   
 }
@@ -35,9 +35,9 @@ input, button {
   display: block;
   width: 100%;
 
-  padding: 20px;
-  font-size: 20px;
-  border-radius: 4px;
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
 }
 
 
@@ -59,7 +59,7 @@ button:hover{
 
 #resposta{
   margin-top: 1.87rem;
-  
+  transition: opacity 1s;  
 }
 
 #resposta div{
