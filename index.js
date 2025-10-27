@@ -48,3 +48,22 @@ function fazerPergunta() {
     buttonPerguntar.removeAttribute('disabled')
   }, 3000)
 }
+
+const backgroundMusic = document.getElementById("backgroundMusic");
+const toggleMusicBtn = document.getElementById("toggleMusic");
+
+// Garante que o áudio esteja baixo e suave
+backgroundMusic.volume = 0.2;
+
+// Alterna entre tocar e pausar
+toggleMusicBtn.addEventListener("click", () => {
+  if (backgroundMusic.paused) {
+    backgroundMusic.play();
+    toggleMusicBtn.textContent = "🔊";
+  } else {
+    backgroundMusic.pause();
+    toggleMusicBtn.textContent = "🔇";
+  }
+});
+
+toggleMusicBtn.classList.toggle("active");
