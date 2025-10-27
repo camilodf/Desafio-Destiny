@@ -8,7 +8,7 @@ An interactive web app built with **HTML, CSS, and vanilla JavaScript**, where u
 ---
 
 ## 🌐 Live Demo | Demonstração ao vivo
-👉 [Acesse o projeto aqui](https://seuusuario.github.io/destiny-revealer)
+👉 [Acesse o projeto aqui][(https://camilodf.github.io/Desafio-Destiny/)]
 
 ---
 
@@ -84,4 +84,5 @@ Camilo Dalcim Franzini
 ## 🪪 Licença | License
 
 Projeto licenciado sob MIT License — sinta-se livre para usar e modificar.
+
 This project is licensed under the MIT License — feel free to use and modify.
